@@ -132,6 +132,8 @@ footer {
 .emailaddress {
     font-size: 22px;
     margin-top: 27px;
+    text-decoration: none;
+    color: #1290CB;
 }
 
 .copyright {
@@ -243,4 +245,12 @@ footer {
     .wrapperthree {
         order: 1;
     }
+}
+
+.underline {
+    border-bottom: 3px #1290CB solid;
+}
+
+.modal {
+    display: none;
 }
