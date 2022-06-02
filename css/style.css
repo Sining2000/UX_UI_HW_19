@@ -442,6 +442,7 @@ footer {
     align-items: center;
 }
 
+<<<<<<< HEAD
 .tagLine {
     width: 75%;
     height: auto;
@@ -473,6 +474,11 @@ footer h7 {
     margin-bottom: 1.3vh;
     margin-right: 0.2vw;
     margin-left: 0.6vw;
+=======
+.emailaddress {
+    font-size: 22px;
+    margin-top: 27px;
+>>>>>>> parent of 8e172bd (js updated)
 }
 
 .copyright {
@@ -677,6 +683,7 @@ footer h7 {
         height: 90vw;
         flex-direction: column;
     }
+<<<<<<< HEAD
 
     .copyright {
         background-color: #00199F;
@@ -695,3 +702,23 @@ footer h7 {
     }
     
 }
+=======
+    .right-column {
+        width: 100%;
+        margin-left: 0;
+    }
+    .cs {
+        grid-template-columns: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .textone,
+    .textthree {
+        order: 2;
+    }
+    .wrapperone,
+    .wrapperthree {
+        order: 1;
+    }
+}
+>>>>>>> parent of 8e172bd (js updated)
