@@ -1,13 +1,8 @@
-// $("downArrow").on("hover", function(){
-//     $(this).animate({
-//         up: 15
-//     })
-// });
-
-$(document).ready(function(){
-    $("#downarrow").hover(function(){
-        $(this).animate({
-            left: 300
-        });
-    });
-});
+$(".nav > a").hover(
+    function() {
+        $(this).addClass("underline");
+    },
+    function() {
+        $(this).removeClass("underline");
+    }
+);
